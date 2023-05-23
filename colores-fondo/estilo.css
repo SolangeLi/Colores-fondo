@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    
+    font-family: 'Poppins', sans-serif;
+    
+}
+.main{ 
+    max-width: 500px;
+    margin: 30px auto;
+    background-image: linear-gradient(#ff00008b, #0000ff71), url('background.jpg');
+    /*height: 400px;*/
+    background-size: cover;
+    padding: 80px 40px;
+    color: white;
+    
+}
+
+.main__title{
+    
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.main__texto{
+    text-align: left;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 20px 0;
+    
+}
+
+.main__texto--segundo{
+   
+    font-weight: 400;
+    font-style: italic;
+
+}
+.main__link{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 60px;
+    background-color: orange;
+    border-radius: 50px;
+    color: white;
+    
+    
+}
+div{
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+    background-image: url(persona.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
